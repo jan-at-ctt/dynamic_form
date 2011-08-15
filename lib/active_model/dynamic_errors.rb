@@ -10,7 +10,7 @@ module ActiveModel
     #     :message => Proc.new { |aa| "#{aa.label} (#{aa.group_label}) is required" }
     #     which gives an error message like:
     #     Rate (Accuracy) is required
-    def full_messages
+    def full_messages_for_ctt
       full_messages = []
 
       each do |attribute, messages|
