@@ -222,7 +222,7 @@ module ActionView
             message = options.include?(:message) ? options[:message] : locale.t(:body)
 
             error_messages = objects.sum do |object|
-              object.errors.full_messages.map do |msg|
+              object.errors.full_messages_for_ctt.map do |msg|
                 content_tag(:li, msg)
               end
             end.join.html_safe
@@ -297,4 +297,4 @@ module ActionView
   end
 end
 
-I18n.load_path << File.expand_path("../../locale/en.yml", __FILE__)
+#I18n.load_path << File.expand_path("../../locale/en.yml", __FILE__)
