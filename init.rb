@@ -1,1 +1,1 @@
-require 'dynamic_form'
+require 'dynamic_form_for_joyncare'
