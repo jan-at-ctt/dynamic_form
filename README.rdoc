@@ -17,3 +17,5 @@ Description goes here.
 Copyright (c) 2011 jan@cttinnovations.com. See LICENSE.txt for
 further details.
 
+This gem was created by forking the dynamic_form gem from git://github.com/rails/dynamic_form.git
+
