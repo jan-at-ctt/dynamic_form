@@ -50,4 +50,5 @@ Rake::RDocTask.new do |rdoc|
   rdoc.title = "dynamic_form_for_joyncare #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
+
 end
